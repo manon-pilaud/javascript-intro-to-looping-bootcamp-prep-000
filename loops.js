@@ -28,6 +28,6 @@ function incrementVariable(){
 }
 do {
   incrementVariable()
-} while (array.length > 0);
+} while (array.length > 0 && false);
 return array
 }
